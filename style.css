@@ -4,13 +4,21 @@
   body{
       background-color: #399fec;
   }
-  input[type=number], select {
+  input[type=number]{
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #399fec;
     border-radius: 4px;
     resize: vertical;
-    font-size: 20px;
+    font-size: 19px;
+  }
+  input[type=number]:hover{
+    border: 1px solid #5035e9;
+    box-shadow: 0 0 10px #719ECE;
+  }
+  input[type=number]:focus{
+    border: 1px solid #0415aa;
+    box-shadow: 0 0 10px #719ECE;
   }
   .heading{
     text-align: center;
@@ -18,7 +26,7 @@
     }
   .msg{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 20px;
 
   }
@@ -31,8 +39,8 @@
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-    color: grey;
-    font-size: 24px;
+    color: #399fec;
+    font-size: 22px;
   }
   button[type=button] {
     background-color: #0415aa;
@@ -76,7 +84,7 @@
   }
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+  @media only screen and (max-width: 1250px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
