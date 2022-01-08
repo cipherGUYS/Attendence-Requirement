@@ -15,7 +15,7 @@
   .heading{
     text-align: center;
     color: rgb(255, 255, 255);
-  }
+    }
   .msg{
     text-align: center;
     color: white;
@@ -52,7 +52,9 @@
     background-color: white;
     padding: 20px;
     max-width: 900px;
-    }
+    margin: 0 auto;
+    
+  }
   
   .col-25 {
     float: left;
