@@ -7,6 +7,7 @@ function calculate(){
     }
     else{
         var res=(p*t - c)/(1-p)
+        res = Math.ceil(res);
         document.getElementById("result").innerHTML=`You need ${res} more hours class for ${p*100}% attendence`;
         return false;
     }

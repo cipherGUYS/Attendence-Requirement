@@ -10,17 +10,29 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+    font-size: 20px;
   }
   .heading{
     text-align: center;
     color: rgb(255, 255, 255);
-    
+  }
+  .msg{
+    text-align: center;
+    color: white;
+    font-size: 20px;
 
   }
+  .footer {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+}
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-    color: aliceblue;
+    color: grey;
+    font-size: 24px;
   }
   button[type=button] {
     background-color: #0415aa;
@@ -37,9 +49,10 @@
   
   .container {
     border-radius: 5px;
-    background-color: #399fec;
+    background-color: white;
     padding: 20px;
-  }
+    max-width: 900px;
+    }
   
   .col-25 {
     float: left;
