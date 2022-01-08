@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<title>Attendence Reqiuremnt Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Attendence Reqiuremnt Calculator</title>
 </head>
+
 <body>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
+  <div style="padding: 10% 0;">
+    <h1 class="heading">Attendence Requirement Calculator</h1>
 
-<h1 class="heading">Attendence Requirement Calculator</h1>
+    <div class="container ">
 
-<div class="container ">
-  
-  <form name="myForm" action= "#">
-    <div class="row">
-      <div class="col-25">
-        <label for="attendence">Current Attendence</label>
-      </div>
-      <div class="col-75">
-        <input type="number" id="attendence" name="attendence" placeholder="Current attendence..">
-      </div>
+      <form name="myForm" action="#">
+        <div class="row">
+          <div class="col-25">
+            <label for="attendence">Current Attendence</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="attendence" name="attendence" placeholder="Current attendence..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="totalHr">Hours Taken</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="totalHr" name="Total" placeholder="Hours taken..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="reqPerce">Percentage Required</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="reqPerce" name="Percentage Required" placeholder="Percentage Reqiured..">
+          </div>
+        </div>
+        <br><br>
+        <div align="center">
+          <button type="button" onclick="calculate()">Calculate</button>
+        </div>
+        <output>
+          <p id="result" class="msg"></p>
+        </output>
+      </form>
+
     </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="totalHr">Hours Taken</label>
-      </div>
-      <div class="col-75">
-        <input type="number" id="totalHr" name="Total" placeholder="Hours taken..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="reqPerce">Percentage Required</label>
-      </div>
-      <div class="col-75">
-        <input type="number" id="reqPerce" name="Percentage Required" placeholder="Percentage Reqiured..">
-      </div>
-    </div>
-    <br><br>
-    <div align="center">
-      <button type="button" onclick="calculate()">Calculate</button>
-    </div>
-    <output><p id="result" class="msg" ></p></output>
-  </form>
-  
-</div>
-<h1 class="footer" >Made with 🤍 by Tomin</h2>
+    <div class="footer">Made with 🤍 by Tomin</div>
+  </div>
 </body>
+
 </html>

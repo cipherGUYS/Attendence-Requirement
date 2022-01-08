@@ -31,10 +31,11 @@
 
   }
   .footer {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    text-align: center;
     color: whitesmoke;
+    padding: 10% 0;  
+    text-align: center;  
 }
   label {
     padding: 12px 12px 12px 0;
