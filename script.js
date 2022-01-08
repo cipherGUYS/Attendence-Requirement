@@ -1,5 +1,4 @@
-function calculate(event){
-    console.log(event);
+function calculate(){
     var c=document.forms["myForm"]["attendence"].value;
     var t=document.forms["myForm"]["Total"].value;
     var p=document.forms["myForm"]["Percentage Required"].value/100;
