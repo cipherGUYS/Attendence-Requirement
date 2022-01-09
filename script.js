@@ -11,7 +11,7 @@ function calculate(){
         document.getElementById("result").innerHTML=`${cur}% attendance 🙄 <br> Nee iluminanti aano? `;
     }
     else if((p==100 && (cur)!=100) || p>100){
-        document.getElementById("result").innerHTML=`${p}% onnum kitilla <br>Nee nadakan karyam vellom para`;
+        document.getElementById("result").innerHTML=`${p}% onnum kitilla <br>Nee nadakana karyam vellom para`;
     }
     else if(p==0){
         document.getElementById("result").innerHTML=`You currently have ${cur}% attendence`;    
