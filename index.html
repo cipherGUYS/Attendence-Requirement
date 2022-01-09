@@ -18,18 +18,18 @@
       <form name="myForm" action="#">
         <div class="row">
           <div class="col-25">
-            <label for="attendence">Current Attendence</label>
+            <label for="attendence">Hours Attended</label>
           </div>
           <div class="col-75">
-            <input type="number" id="attendence" name="attendence" placeholder="Hours of classes you were present">
+            <input type="number" id="attendence" name="attendence" placeholder="Hours attended by student">
           </div>
         </div>
         <div class="row">
           <div class="col-25">
-            <label for="totalHr">Hours Taken</label>
+            <label for="totalHr">Hours Conducted</label>
           </div>
           <div class="col-75">
-            <input type="number" id="totalHr" name="Total" placeholder="Total Hours of class conducted">
+            <input type="number" id="totalHr" name="Total" placeholder="Hours conducted by teacher ">
           </div>
         </div>
         <div class="row">
@@ -40,13 +40,13 @@
             <input type="number" id="reqPerce" name="Percentage Required" placeholder="Percentage Reqiured..">
           </div>
         </div>
-        <br><br>
-        <div align="center">
-          <button type="button" onclick="calculate()">Calculate</button>
-        </div>
         <output>
           <p id="result" class="msg"></p>
         </output>
+        <div align="center">
+          <button type="button" onclick="calculate()">Calculate</button>
+        </div>
+        
       </form>
 
     </div>

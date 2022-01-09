@@ -26,8 +26,9 @@
     }
   .msg{
     text-align: center;
-    color: black;
-    font-size: 20px;
+    color: #399fec;
+    font-size: 24px;
+    font-weight: bold;
 
   }
   .footer {
@@ -50,10 +51,12 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
   }
   
   button[type=button]:hover {
     background-color: #1609c7ef;
+    box-shadow: 0 0 10px #719ECE;
   }
   
   .container {
@@ -62,9 +65,8 @@
     padding: 20px;
     max-width: 900px;
     margin: 0 auto;
-    
+    box-shadow: 10px 10px 10px #4f6f92;
   }
-  
   .col-25 {
     float: left;
     width: 25%;
