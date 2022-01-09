@@ -5,9 +5,9 @@ function calculate(){
     var cur = (c/t) *100;
     cur = Math.round(cur*100)/100;
     if(t==0){
-        document.getElementById("result").innerHTML=`Vilachill edukaruthe keto`;
+        document.getElementById("result").innerHTML=`Velachill edukaruthe keto`;
     }
-    else if(c>t){
+    else if(cur>100){
         document.getElementById("result").innerHTML=`${cur}% attendance 🙄 <br> Nee iluminanti aano? `;
     }
     else if((p==100 && (cur)!=100) || p>100){
@@ -16,7 +16,7 @@ function calculate(){
     else if(p==0){
         document.getElementById("result").innerHTML=`You currently have ${cur}% attendence`;    
     }
-    else if((cur)=p){
+    else if((cur)==p){
         document.getElementById("result").innerHTML=`You already have ${p}% attendence`;
     }
     else if((cur)>p){
