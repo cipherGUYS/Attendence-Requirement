@@ -23,6 +23,7 @@
   .heading{
     text-align: center;
     color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px #719ECE;
     }
   .msg{
     text-align: center;
@@ -35,7 +36,8 @@
     font-weight: bold;
     color: whitesmoke;
     padding: 5% 0;  
-    text-align: center;  
+    text-align: center;
+    text-shadow: 2px 2px 8px #719ECE;
 }
   label {
     padding: 12px 12px 12px 0;
